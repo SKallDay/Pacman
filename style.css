@@ -1,0 +1,49 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  border: solid black;
+}
+
+.board div {
+  width: 20px;
+  height: 20px;
+}
+
+.pac-dot {
+  background-color: pink;
+  border: 5px solid white;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.wall {
+  background: cyan;
+}
+
+.power-pellet {
+  background-image: url(assets/beer-mug.png);
+  background-size: cover;
+}
+
+.blinky,
+.pinky,
+.inky,
+.clyde {
+  width: 10px;
+  background-image: url(assets/ghost.png);
+  background-size: cover;
+}
+
+.scared-ghost {
+  background-image: url(assets/blue-ghost.png);
+  background-size: cover;
+}
+
+
+.pac-man {
+  width: 10px;
+  background-image: url(assets/smirk-emoji-png.png);
+  background-size: cover;
+}
